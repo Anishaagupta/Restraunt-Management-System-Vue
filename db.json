@@ -1,0 +1,120 @@
+{
+  "user": [
+    {
+      "name": "Anisha",
+      "email": "anisha@gmail.com",
+      "id": 22827,
+      "password": "123456"
+    },
+    {
+      "name": "Anisha",
+      "email": "anisha@gmail.com",
+      "id": 44663,
+      "password": "123456"
+    },
+    {
+      "name": "Anisha",
+      "email": "anisha@gmail.com",
+      "id": 57978,
+      "password": "2345"
+    },
+    {
+      "name": "Annie",
+      "email": "anisha@gmail.com",
+      "id": 71922,
+      "password": "123456567"
+    },
+    {
+      "name": "Ayush",
+      "email": "ayush@gmail.com",
+      "id": 27114,
+      "password": "ayu123"
+    },
+    {
+      "name": "Ayush Gupta",
+      "email": "ayush@gmail.com",
+      "id": 82643,
+      "password": "ayush1234"
+    },
+    {
+      "name": "Amar ",
+      "email": "amar@gmail.com",
+      "id": 38216,
+      "password": "amar1234"
+    },
+    {
+      "name": "Amar Gupta",
+      "email": "amar1234@gmail.com",
+      "id": 82837,
+      "password": "Amar5"
+    },
+    {
+      "name": "sdhjg",
+      "email": "kjHSDG@ASJDG.COM",
+      "id": 37961,
+      "password": "JGHDF"
+    },
+    {
+      "name": ",MHDG",
+      "email": "KHJSGDF@KSJH.COM",
+      "id": 21198,
+      "password": "KHJGFE"
+    },
+    {
+      "name": ",hdjgmfns",
+      "email": "kdshj@jshdf",
+      "id": 79437,
+      "password": "kwhjge"
+    },
+    {
+      "name": "NAKSH",
+      "email": "nk@test.com",
+      "id": 32833,
+      "password": "nk1234"
+    },
+    {
+      "name": "Aksh",
+      "email": "ak@123.com",
+      "id": 19509,
+      "password": "ak3455"
+    },
+    {
+      "name": "Nitya",
+      "email": "nt@7676.com",
+      "id": 66372,
+      "password": "nt3546"
+    },
+    {
+      "name": "Prakash",
+      "email": "Pr@texting.com",
+      "id": 83526,
+      "password": "Pr2234"
+    },
+    {
+      "name": "Ak",
+      "email": "An@12.com",
+      "id": 79665,
+      "password": "an12"
+    },
+    {
+      "name": "Ayush Gupta",
+      "email": "ag@123.com",
+      "id": 10103,
+      "password": "ag12"
+    }
+  ],
+  "restraunts": [
+    {
+      "name": "Kavinter's",
+      "address": "Delhi",
+      "id": 1,
+      "contact": 8645378665
+    },
+    {
+      "name": "Upvan Restraunt",
+      "address": "Lucknow",
+      "id": 2,
+      "contact": 7654321345
+    }
+  ]
+}
