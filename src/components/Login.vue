@@ -2,7 +2,7 @@
   <div>
     <form class="register" @submit="onSubmit">
       <img class="logo" src="../assets/restraunt.png" alt="Logo" />
-      <h2>Login For Restraunts</h2>
+      <h2>Login For Restaurants</h2>
       <input
         required
         type="email"

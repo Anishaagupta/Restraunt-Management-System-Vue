@@ -1,26 +1,26 @@
 <template>
   <Header />
-  <div class="restraunt-container">
+  <div class="restaurant-container">
     <form class="register" @submit="onSubmit">
       <img class="logo" src="../assets/restraunt.png" alt="Logo" />
-      <h2>Update Old Restraunts</h2>
+      <h2>Update Old Restaurants</h2>
       <input
         required
         type="text"
-        v-model="restraunts.name"
-        placeholder="Restraunt's Name"
+        v-model="restaurants.name"
+        placeholder="Restaurant's Name"
       />
       <input
         required
         type="text"
-        v-model="restraunts.address"
-        placeholder="Restraunt's Address"
+        v-model="restaurants.address"
+        placeholder="Restaurant's Address"
       />
       <input
         required
         type="number"
-        v-model="restraunts.contact"
-        placeholder="Restraunt's Contact Number"
+        v-model="restaurants.contact"
+        placeholder="Restaurant's Contact Number"
       />
       <button class="btn">Update</button>
     </form>
@@ -35,7 +35,7 @@ export default {
   components: { Header },
   data() {
     return {
-      restraunts: {
+      restaurants: {
         name: "",
         address: "",
         contact: "",
@@ -45,15 +45,15 @@ export default {
   methods: {
     async onSubmit(e) {
       e.preventDefault();
-      const updatedRestrauntsData = {
-        name: this.restraunts.name,
-        address: this.restraunts.address,
+      const updatedRestaurantsData = {
+        name: this.restaurants.name,
+        address: this.restaurants.address,
         id: Math.floor(Math.random() * 1),
-        contact: this.restraunts.contact,
+        contact: this.restaurants.contact,
       };
       let result = await axios.put(
-        `http://localhost:3000/restraunts/${this.$route.params.id}`,
-        updatedRestrauntsData
+        `http://localhost:3000/restaurants/${this.$route.params.id}`,
+        updatedRestaurantsData
       );
       if (result.status == 200) {
         localStorage.setItem("restraunt-info", JSON.stringify(result.data));
@@ -72,13 +72,13 @@ export default {
       `http://localhost:3000/restraunts/${this.$route.params.id}`
     );
 
-    this.restraunts = result.data;
+    this.restaurants = result.data;
   },
 };
 </script>
 
 <style scoped>
-.restraunt-container {
+.restaurant-container {
   margin-top: 30px;
 }
 .logo {

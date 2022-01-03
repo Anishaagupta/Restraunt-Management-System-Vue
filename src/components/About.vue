@@ -1,10 +1,14 @@
 <template>
-<Header/>
-  <h1>This is ablut page.</h1>
+  <Header />
+  <h1>This page is about the developer who created this project.</h1>
+  <h3>
+    Created & Developed By
+    <a href="https://www.linkedin.com/feed/">Anisha Gupta</a> | Jan 2022
+  </h3>
 </template>
 
 <script>
-import Header from "./Header"
+import Header from "./Header";
 export default {
   name: "About",
   components: { Header },

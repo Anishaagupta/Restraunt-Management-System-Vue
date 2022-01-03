@@ -2,7 +2,7 @@
   <div>
     <form class="register" @submit="onSubmit">
       <img class="logo" src="../assets/restraunt.png" alt="Logo" />
-      <h2>Sign Up/Register For Restraunts</h2>
+      <h2>Sign Up/Register For Restaurants</h2>
       <input required type="text" v-model="name" placeholder="Your Name" />
       <input
         required

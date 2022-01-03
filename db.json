@@ -101,6 +101,18 @@
       "email": "ag@123.com",
       "id": 10103,
       "password": "ag12"
+    },
+    {
+      "name": "Anie",
+      "email": "an@123.co",
+      "id": 62676,
+      "password": "an12"
+    },
+    {
+      "name": "Anisha Gupta",
+      "email": "ag@123.com",
+      "id": 54959,
+      "password": "ag12"
     }
   ],
   "restraunts": [
@@ -111,10 +123,22 @@
       "contact": 8645378665
     },
     {
-      "name": "Upvan Restraunt",
+      "name": "Upvan Restaurant",
       "address": "Lucknow",
       "id": 2,
       "contact": 7654321345
+    },
+    {
+      "name": "Mughal Darbar",
+      "address": "Lucknow",
+      "id": 3,
+      "contact": 6374827382
+    },
+    {
+      "name": "Taj Hotel & Restaurant",
+      "address": "Mumbai",
+      "id": 4,
+      "contact": 4765582901
     }
   ]
 }
