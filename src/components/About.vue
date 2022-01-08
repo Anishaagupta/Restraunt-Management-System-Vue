@@ -3,7 +3,7 @@
   <h1>This page is about the developer who created this project.</h1>
   <h3>
     Created & Developed By
-    <a href="https://www.linkedin.com/feed/">Anisha Gupta</a> | Jan 2022
+    <a href="https://www.linkedin.com/in/anisha-gupta-66096318b/">Anisha Gupta</a> | Jan 2022
   </h3>
 </template>
 
